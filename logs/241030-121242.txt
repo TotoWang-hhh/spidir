@@ -1,2 +1,0 @@
-2024-10-30 12:12:42.543484 [INFO] log.py><module>>Line 122: Welcome from Minimalogger v0.1.2
-2024-10-30 12:12:48.907505 [DEBUG] cli.py>choose_from()>Line 5: Asking user to choose a parser from a list
