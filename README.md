@@ -11,7 +11,7 @@ If you want to download files from other sources, try to make a parser by yourse
 
 See `parsers/webarchive.py` for more about how to make a parser.
 
-## Example of Downloaded file
+## Example of Downloaded files
 
 ![image](https://github.com/user-attachments/assets/9e6eb573-6620-42f9-a0fb-32d8ca5fe0c2)
 
