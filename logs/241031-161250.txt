@@ -1,0 +1,154 @@
+2024-10-31 16:12:50.880838 [INFO] log.py><module>>Line 122: Welcome from Minimalogger v0.1.2
+2024-10-31 16:15:10.416200 [DEBUG] cli.py>choose_from()>Line 5: Asking user to choose a parser from a list
+2024-10-31 16:15:12.649438 [DEBUG] cli.py>choose_from()>Line 16: User chose <1 - webarchive.py>
+2024-10-31 16:15:37.752994 [INFO] main.py><module>>Line 16: Starting parsing and download...
+2024-10-31 16:15:37.754068 [DEBUG] network.py>main()>Line 80: Starting to get page content
+2024-10-31 16:15:43.975551 [INFO] network.py>main()>Line 82: Successfully GET html from https://archive.org/download/doctor-who-2005-s02/2006%20-%20Series%202/.
+2024-10-31 16:15:44.139428 [INFO] webarchive.py>parse()>Line 9: Successfully turned valid content into bs4 object.
+2024-10-31 16:15:44.142599 [INFO] webarchive.py>parse()>Line 11: Found directory listing table.
+2024-10-31 16:15:44.144544 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 1.
+2024-10-31 16:15:44.146410 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 2.
+2024-10-31 16:15:44.148270 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 3.
+2024-10-31 16:15:44.150940 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E01 New Earth.mkv
+2024-10-31 16:15:44.152807 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 5.
+2024-10-31 16:15:44.155432 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E01 New Earth.mp4
+2024-10-31 16:15:44.157421 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 7.
+2024-10-31 16:15:44.161865 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E02 Tooth and Claw.mkv
+2024-10-31 16:15:44.164720 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 9.
+2024-10-31 16:15:44.167389 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E02 Tooth and Claw.mp4
+2024-10-31 16:15:44.169257 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 11.
+2024-10-31 16:15:44.171959 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E03 School Reuinion.mkv
+2024-10-31 16:15:44.173834 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 13.
+2024-10-31 16:15:44.176407 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E03 School Reuinion.mp4
+2024-10-31 16:15:44.178279 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 15.
+2024-10-31 16:15:44.180867 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E04 The Girl in the Fireplace.mkv
+2024-10-31 16:15:44.182736 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 17.
+2024-10-31 16:15:44.185290 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E04 The Girl in the Fireplace.mp4
+2024-10-31 16:15:44.187161 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 19.
+2024-10-31 16:15:44.189758 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E05 Rise of the Cybermen.mkv
+2024-10-31 16:15:44.191613 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 21.
+2024-10-31 16:15:44.194191 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E05 Rise of the Cybermen.mp4
+2024-10-31 16:15:44.196056 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 23.
+2024-10-31 16:15:44.198641 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E06 The Age of Steel.mkv
+2024-10-31 16:15:44.200511 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 25.
+2024-10-31 16:15:44.203097 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E06 The Age of Steel.mp4
+2024-10-31 16:15:44.204951 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 27.
+2024-10-31 16:15:44.207547 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E07 The Idiot's Lantern.mkv
+2024-10-31 16:15:44.210558 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 29.
+2024-10-31 16:15:44.214459 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E07 The Idiot's Lantern.mp4
+2024-10-31 16:15:44.216326 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 31.
+2024-10-31 16:15:44.218925 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E08 The Impossible Planet.mkv
+2024-10-31 16:15:44.220798 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 33.
+2024-10-31 16:15:44.223364 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E08 The Impossible Planet.mp4
+2024-10-31 16:15:44.225222 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 35.
+2024-10-31 16:15:44.227823 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E09 The Satan Pit.mkv
+2024-10-31 16:15:44.229686 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 37.
+2024-10-31 16:15:44.232527 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E09 The Satan Pit.mp4
+2024-10-31 16:15:44.234570 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 39.
+2024-10-31 16:15:44.237202 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E10 Love & Monsters.mkv
+2024-10-31 16:15:44.239078 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 41.
+2024-10-31 16:15:44.241704 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E10 Love & Monsters.mp4
+2024-10-31 16:15:44.243556 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 43.
+2024-10-31 16:15:44.246265 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E11 Fear Her.mkv
+2024-10-31 16:15:44.248147 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 45.
+2024-10-31 16:15:44.250732 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E11 Fear Her.mp4
+2024-10-31 16:15:44.252590 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 47.
+2024-10-31 16:15:44.255175 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E12 Army of Ghosts.mkv
+2024-10-31 16:15:44.257049 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 49.
+2024-10-31 16:15:44.260463 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E12 Army of Ghosts.mp4
+2024-10-31 16:15:44.263719 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 51.
+2024-10-31 16:15:44.266277 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E13 Doomsday.mkv
+2024-10-31 16:15:44.268141 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 53.
+2024-10-31 16:15:44.270717 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E13 Doomsday.mp4
+2024-10-31 16:15:44.272576 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 55.
+2024-10-31 16:15:44.275152 [DEBUG] webarchive.py>parse()>Line 30: Found file S02S01 The Runaway Bride.mkv
+2024-10-31 16:15:44.277014 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 57.
+2024-10-31 16:15:44.279576 [DEBUG] webarchive.py>parse()>Line 30: Found file S02S01 The Runaway Bride.mp4
+2024-10-31 16:15:44.281429 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 59.
+2024-10-31 16:15:44.282304 [INFO] network.py>main()>Line 84: Successfully parsed content using parser webarchive.
+2024-10-31 16:15:44.283495 [DEBUG] cli.py>choose_from()>Line 5: Asking user to choose file(s) to download from a list
+2024-10-31 16:15:47.438345 [DEBUG] cli.py>choose_from()>Line 16: User chose <0 - S02S01 The Runaway Bride.mp4>
+2024-10-31 16:15:47.440188 [DEBUG] cli.py>choose_from()>Line 5: Asking user to choose a sort rule from a list
+2024-10-31 16:15:50.023725 [DEBUG] cli.py>choose_from()>Line 16: User chose <1 - filetype.py>
+2024-10-31 16:15:54.903547 [DEBUG] filetype.py>match()>Line 4: Checking if s02e01 new earth.mkv ends with mp4...
+2024-10-31 16:15:54.904632 [INFO] network.py>main()>Line 98: Skip for S02E01 New Earth.mkv because it is out of the sorting condition.
+2024-10-31 16:15:54.906806 [DEBUG] filetype.py>match()>Line 4: Checking if s02e01 new earth.mp4 ends with mp4...
+2024-10-31 16:15:54.907824 [DEBUG] network.py>main()>Line 94: Starting to download S02E01 New Earth.mp4
+2024-10-31 16:18:23.772290 [INFO] network.py>main()>Line 96: Downloaded S02E01 New Earth.mp4.
+2024-10-31 16:18:23.777404 [DEBUG] filetype.py>match()>Line 4: Checking if s02e02 tooth and claw.mkv ends with mp4...
+2024-10-31 16:18:23.779761 [INFO] network.py>main()>Line 98: Skip for S02E02 Tooth and Claw.mkv because it is out of the sorting condition.
+2024-10-31 16:18:23.784564 [DEBUG] filetype.py>match()>Line 4: Checking if s02e02 tooth and claw.mp4 ends with mp4...
+2024-10-31 16:18:23.786817 [DEBUG] network.py>main()>Line 94: Starting to download S02E02 Tooth and Claw.mp4
+2024-10-31 17:04:02.784899 [ERROR] network.py>download()>Line 49: Download failed with error ('Connection broken: IncompleteRead(152501863 bytes read, 130142127 more expected)', IncompleteRead(152501863 bytes read, 130142127 more expected))
+2024-10-31 17:04:02.787995 [INFO] network.py>download()>Line 50: Retry downloading https://archive.org/download/doctor-who-2005-s02/2006%20-%20Series%202/S02E02%20Tooth%20and%20Claw.mp4
+2024-10-31 17:13:52.329939 [INFO] network.py>main()>Line 96: Downloaded S02E02 Tooth and Claw.mp4.
+2024-10-31 17:13:52.335032 [DEBUG] filetype.py>match()>Line 4: Checking if s02e03 school reuinion.mkv ends with mp4...
+2024-10-31 17:13:52.337360 [INFO] network.py>main()>Line 98: Skip for S02E03 School Reuinion.mkv because it is out of the sorting condition.
+2024-10-31 17:13:52.342145 [DEBUG] filetype.py>match()>Line 4: Checking if s02e03 school reuinion.mp4 ends with mp4...
+2024-10-31 17:13:52.344380 [DEBUG] network.py>main()>Line 94: Starting to download S02E03 School Reuinion.mp4
+2024-10-31 17:19:32.090678 [INFO] network.py>main()>Line 96: Downloaded S02E03 School Reuinion.mp4.
+2024-10-31 17:19:32.096102 [DEBUG] filetype.py>match()>Line 4: Checking if s02e04 the girl in the fireplace.mkv ends with mp4...
+2024-10-31 17:19:32.098487 [INFO] network.py>main()>Line 98: Skip for S02E04 The Girl in the Fireplace.mkv because it is out of the sorting condition.
+2024-10-31 17:19:32.103341 [DEBUG] filetype.py>match()>Line 4: Checking if s02e04 the girl in the fireplace.mp4 ends with mp4...
+2024-10-31 17:19:32.105573 [DEBUG] network.py>main()>Line 94: Starting to download S02E04 The Girl in the Fireplace.mp4
+2024-10-31 17:22:19.030319 [INFO] network.py>main()>Line 96: Downloaded S02E04 The Girl in the Fireplace.mp4.
+2024-10-31 17:22:19.035755 [DEBUG] filetype.py>match()>Line 4: Checking if s02e05 rise of the cybermen.mkv ends with mp4...
+2024-10-31 17:22:19.038126 [INFO] network.py>main()>Line 98: Skip for S02E05 Rise of the Cybermen.mkv because it is out of the sorting condition.
+2024-10-31 17:22:19.042932 [DEBUG] filetype.py>match()>Line 4: Checking if s02e05 rise of the cybermen.mp4 ends with mp4...
+2024-10-31 17:22:19.045185 [DEBUG] network.py>main()>Line 94: Starting to download S02E05 Rise of the Cybermen.mp4
+2024-10-31 17:23:39.993275 [INFO] network.py>main()>Line 96: Downloaded S02E05 Rise of the Cybermen.mp4.
+2024-10-31 17:23:39.998320 [DEBUG] filetype.py>match()>Line 4: Checking if s02e06 the age of steel.mkv ends with mp4...
+2024-10-31 17:23:40.000415 [INFO] network.py>main()>Line 98: Skip for S02E06 The Age of Steel.mkv because it is out of the sorting condition.
+2024-10-31 17:23:40.004793 [DEBUG] filetype.py>match()>Line 4: Checking if s02e06 the age of steel.mp4 ends with mp4...
+2024-10-31 17:23:40.008272 [DEBUG] network.py>main()>Line 94: Starting to download S02E06 The Age of Steel.mp4
+2024-10-31 17:24:59.331310 [INFO] network.py>main()>Line 96: Downloaded S02E06 The Age of Steel.mp4.
+2024-10-31 17:24:59.336671 [DEBUG] filetype.py>match()>Line 4: Checking if s02e07 the idiot's lantern.mkv ends with mp4...
+2024-10-31 17:24:59.340585 [INFO] network.py>main()>Line 98: Skip for S02E07 The Idiot's Lantern.mkv because it is out of the sorting condition.
+2024-10-31 17:24:59.345716 [DEBUG] filetype.py>match()>Line 4: Checking if s02e07 the idiot's lantern.mp4 ends with mp4...
+2024-10-31 17:24:59.347974 [DEBUG] network.py>main()>Line 94: Starting to download S02E07 The Idiot's Lantern.mp4
+2024-10-31 17:28:26.438178 [ERROR] network.py>download()>Line 49: Download failed with error ('Connection broken: IncompleteRead(163200615 bytes read, 122196947 more expected)', IncompleteRead(163200615 bytes read, 122196947 more expected))
+2024-10-31 17:28:26.441303 [INFO] network.py>download()>Line 50: Retry downloading https://archive.org/download/doctor-who-2005-s02/2006%20-%20Series%202/S02E07%20The%20Idiot%27s%20Lantern.mp4
+2024-10-31 17:31:02.355265 [ERROR] network.py>download()>Line 49: Download failed with error ('Connection broken: IncompleteRead(210927207 bytes read, 74470355 more expected)', IncompleteRead(210927207 bytes read, 74470355 more expected))
+2024-10-31 17:31:02.359113 [INFO] network.py>download()>Line 50: Retry downloading https://archive.org/download/doctor-who-2005-s02/2006%20-%20Series%202/S02E07%20The%20Idiot%27s%20Lantern.mp4
+2024-10-31 17:31:02.405613 [ERROR] network.py>download()>Line 49: Download failed with error ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-10-31 17:31:02.410278 [INFO] network.py>download()>Line 50: Retry downloading https://archive.org/download/doctor-who-2005-s02/2006%20-%20Series%202/S02E07%20The%20Idiot%27s%20Lantern.mp4
+2024-10-31 17:31:02.451776 [ERROR] network.py>download()>Line 49: Download failed with error ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-10-31 17:31:02.457020 [INFO] network.py>download()>Line 50: Retry downloading https://archive.org/download/doctor-who-2005-s02/2006%20-%20Series%202/S02E07%20The%20Idiot%27s%20Lantern.mp4
+2024-10-31 17:31:02.494268 [ERROR] network.py>download()>Line 49: Download failed with error ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-10-31 17:31:02.500244 [INFO] network.py>download()>Line 50: Retry downloading https://archive.org/download/doctor-who-2005-s02/2006%20-%20Series%202/S02E07%20The%20Idiot%27s%20Lantern.mp4
+2024-10-31 17:33:03.111285 [INFO] network.py>main()>Line 96: Downloaded S02E07 The Idiot's Lantern.mp4.
+2024-10-31 17:33:03.116442 [DEBUG] filetype.py>match()>Line 4: Checking if s02e08 the impossible planet.mkv ends with mp4...
+2024-10-31 17:33:03.118817 [INFO] network.py>main()>Line 98: Skip for S02E08 The Impossible Planet.mkv because it is out of the sorting condition.
+2024-10-31 17:33:03.123479 [DEBUG] filetype.py>match()>Line 4: Checking if s02e08 the impossible planet.mp4 ends with mp4...
+2024-10-31 17:33:03.125513 [DEBUG] network.py>main()>Line 94: Starting to download S02E08 The Impossible Planet.mp4
+2024-10-31 17:34:32.476979 [INFO] network.py>main()>Line 96: Downloaded S02E08 The Impossible Planet.mp4.
+2024-10-31 17:34:32.482146 [DEBUG] filetype.py>match()>Line 4: Checking if s02e09 the satan pit.mkv ends with mp4...
+2024-10-31 17:34:32.484564 [INFO] network.py>main()>Line 98: Skip for S02E09 The Satan Pit.mkv because it is out of the sorting condition.
+2024-10-31 17:34:32.489443 [DEBUG] filetype.py>match()>Line 4: Checking if s02e09 the satan pit.mp4 ends with mp4...
+2024-10-31 17:34:32.493113 [DEBUG] network.py>main()>Line 94: Starting to download S02E09 The Satan Pit.mp4
+2024-10-31 17:36:09.176021 [INFO] network.py>main()>Line 96: Downloaded S02E09 The Satan Pit.mp4.
+2024-10-31 17:36:09.181161 [DEBUG] filetype.py>match()>Line 4: Checking if s02e10 love & monsters.mkv ends with mp4...
+2024-10-31 17:36:09.183493 [INFO] network.py>main()>Line 98: Skip for S02E10 Love & Monsters.mkv because it is out of the sorting condition.
+2024-10-31 17:36:09.188171 [DEBUG] filetype.py>match()>Line 4: Checking if s02e10 love & monsters.mp4 ends with mp4...
+2024-10-31 17:36:09.190224 [DEBUG] network.py>main()>Line 94: Starting to download S02E10 Love & Monsters.mp4
+2024-10-31 17:37:12.913056 [INFO] network.py>main()>Line 96: Downloaded S02E10 Love & Monsters.mp4.
+2024-10-31 17:37:12.918139 [DEBUG] filetype.py>match()>Line 4: Checking if s02e11 fear her.mkv ends with mp4...
+2024-10-31 17:37:12.920488 [INFO] network.py>main()>Line 98: Skip for S02E11 Fear Her.mkv because it is out of the sorting condition.
+2024-10-31 17:37:12.925245 [DEBUG] filetype.py>match()>Line 4: Checking if s02e11 fear her.mp4 ends with mp4...
+2024-10-31 17:37:12.927497 [DEBUG] network.py>main()>Line 94: Starting to download S02E11 Fear Her.mp4
+2024-10-31 17:38:29.559754 [INFO] network.py>main()>Line 96: Downloaded S02E11 Fear Her.mp4.
+2024-10-31 17:38:29.564811 [DEBUG] filetype.py>match()>Line 4: Checking if s02e12 army of ghosts.mkv ends with mp4...
+2024-10-31 17:38:29.567176 [INFO] network.py>main()>Line 98: Skip for S02E12 Army of Ghosts.mkv because it is out of the sorting condition.
+2024-10-31 17:38:29.571921 [DEBUG] filetype.py>match()>Line 4: Checking if s02e12 army of ghosts.mp4 ends with mp4...
+2024-10-31 17:38:29.574165 [DEBUG] network.py>main()>Line 94: Starting to download S02E12 Army of Ghosts.mp4
+2024-10-31 17:39:58.636041 [INFO] network.py>main()>Line 96: Downloaded S02E12 Army of Ghosts.mp4.
+2024-10-31 17:39:58.641117 [DEBUG] filetype.py>match()>Line 4: Checking if s02e13 doomsday.mkv ends with mp4...
+2024-10-31 17:39:58.643616 [INFO] network.py>main()>Line 98: Skip for S02E13 Doomsday.mkv because it is out of the sorting condition.
+2024-10-31 17:39:58.648624 [DEBUG] filetype.py>match()>Line 4: Checking if s02e13 doomsday.mp4 ends with mp4...
+2024-10-31 17:39:58.651044 [DEBUG] network.py>main()>Line 94: Starting to download S02E13 Doomsday.mp4
+2024-10-31 17:41:57.408442 [INFO] network.py>main()>Line 96: Downloaded S02E13 Doomsday.mp4.
+2024-10-31 17:41:57.413603 [DEBUG] filetype.py>match()>Line 4: Checking if s02s01 the runaway bride.mkv ends with mp4...
+2024-10-31 17:41:57.415988 [INFO] network.py>main()>Line 98: Skip for S02S01 The Runaway Bride.mkv because it is out of the sorting condition.
+2024-10-31 17:41:57.420767 [DEBUG] filetype.py>match()>Line 4: Checking if s02s01 the runaway bride.mp4 ends with mp4...
+2024-10-31 17:41:57.423004 [DEBUG] network.py>main()>Line 94: Starting to download S02S01 The Runaway Bride.mp4
+2024-10-31 17:44:33.017378 [INFO] network.py>main()>Line 96: Downloaded S02S01 The Runaway Bride.mp4.

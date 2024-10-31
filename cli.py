@@ -13,7 +13,7 @@ def choose_from(hint:str,items:list,zero_option=None,max_choice=0,return_option_
     choice=input(f"\nSelect files to download (Enter {str(max_choice)+" " if max_choice!=0 else ""}option number(s) only) ")
     if choice.isdigit():
         if len(choice)<=max_choice or max_choice==0:
-            log.debug(f"User chose <{int(choice)} - {items[int(choice)]}>")
+            log.debug(f"User chose <{int(choice)} - {items[int(choice)-1]}>")
             if return_option_text:
                 return items[int(choice)-1]
             else:
@@ -45,5 +45,6 @@ def ask_parser():
         if not os.path.isfile("./parsers/"+c):
             choices.pop(index)
         index+=1
+    #print(choices)
     choice=choose_from("a parser",choices,max_choice=1,return_option_text=True)
     return choice.split(".")[0]

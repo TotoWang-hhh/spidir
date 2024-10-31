@@ -2,7 +2,7 @@ import log
 import network
 import cli
 
-VERSION="0.1.0"
+VERSION="0.1.1"
 
 if __name__=="__main__":
     print("Welcome to Spidir!")

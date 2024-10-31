@@ -1,0 +1,76 @@
+2024-10-28 12:19:58.722680 [INFO] log.py><module>>Line 122: Welcome from Minimalogger v0.1.2
+2024-10-28 12:20:02.229876 [DEBUG] cli.py>choose_from()>Line 5: Asking user to choose a parser from a list
+2024-10-28 12:20:04.786084 [DEBUG] cli.py>choose_from()>Line 16: User chose <1 - webarchive.py>
+2024-10-28 12:21:13.058927 [INFO] main.py><module>>Line 16: Starting parsing and download...
+2024-10-28 12:21:13.060007 [DEBUG] network.py>main()>Line 74: Starting to get page content
+2024-10-28 12:21:14.145212 [INFO] network.py>main()>Line 76: Successfully GET html from https://archive.org/download/doctor-who-2005-s02/2006%20-%20Series%202/.
+2024-10-28 12:21:14.299864 [INFO] webarchive.py>parse()>Line 9: Successfully turned valid content into bs4 object.
+2024-10-28 12:21:14.302979 [INFO] webarchive.py>parse()>Line 11: Found directory listing table.
+2024-10-28 12:21:14.304903 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 1.
+2024-10-28 12:21:14.306752 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 2.
+2024-10-28 12:21:14.308590 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 3.
+2024-10-28 12:21:14.311239 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E01 New Earth.mkv
+2024-10-28 12:21:14.313099 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 5.
+2024-10-28 12:21:14.315696 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E01 New Earth.mp4
+2024-10-28 12:21:14.317539 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 7.
+2024-10-28 12:21:14.320145 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E02 Tooth and Claw.mkv
+2024-10-28 12:21:14.322008 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 9.
+2024-10-28 12:21:14.324570 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E02 Tooth and Claw.mp4
+2024-10-28 12:21:14.326414 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 11.
+2024-10-28 12:21:14.329094 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E03 School Reuinion.mkv
+2024-10-28 12:21:14.330959 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 13.
+2024-10-28 12:21:14.333517 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E03 School Reuinion.mp4
+2024-10-28 12:21:14.335376 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 15.
+2024-10-28 12:21:14.337930 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E04 The Girl in the Fireplace.mkv
+2024-10-28 12:21:14.339781 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 17.
+2024-10-28 12:21:14.342332 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E04 The Girl in the Fireplace.mp4
+2024-10-28 12:21:14.344185 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 19.
+2024-10-28 12:21:14.346755 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E05 Rise of the Cybermen.mkv
+2024-10-28 12:21:14.348608 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 21.
+2024-10-28 12:21:14.351140 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E05 Rise of the Cybermen.mp4
+2024-10-28 12:21:14.352982 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 23.
+2024-10-28 12:21:14.355536 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E06 The Age of Steel.mkv
+2024-10-28 12:21:14.357379 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 25.
+2024-10-28 12:21:14.359927 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E06 The Age of Steel.mp4
+2024-10-28 12:21:14.361767 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 27.
+2024-10-28 12:21:14.364306 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E07 The Idiot's Lantern.mkv
+2024-10-28 12:21:14.366153 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 29.
+2024-10-28 12:21:14.368715 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E07 The Idiot's Lantern.mp4
+2024-10-28 12:21:14.370549 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 31.
+2024-10-28 12:21:14.373109 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E08 The Impossible Planet.mkv
+2024-10-28 12:21:14.374971 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 33.
+2024-10-28 12:21:14.377513 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E08 The Impossible Planet.mp4
+2024-10-28 12:21:14.379351 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 35.
+2024-10-28 12:21:14.381925 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E09 The Satan Pit.mkv
+2024-10-28 12:21:14.383761 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 37.
+2024-10-28 12:21:14.386302 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E09 The Satan Pit.mp4
+2024-10-28 12:21:14.388137 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 39.
+2024-10-28 12:21:14.390711 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E10 Love & Monsters.mkv
+2024-10-28 12:21:14.392538 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 41.
+2024-10-28 12:21:14.395113 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E10 Love & Monsters.mp4
+2024-10-28 12:21:14.396953 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 43.
+2024-10-28 12:21:14.399641 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E11 Fear Her.mkv
+2024-10-28 12:21:14.401486 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 45.
+2024-10-28 12:21:14.404054 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E11 Fear Her.mp4
+2024-10-28 12:21:14.405908 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 47.
+2024-10-28 12:21:14.408453 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E12 Army of Ghosts.mkv
+2024-10-28 12:21:14.410304 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 49.
+2024-10-28 12:21:14.412852 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E12 Army of Ghosts.mp4
+2024-10-28 12:21:14.414702 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 51.
+2024-10-28 12:21:14.417230 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E13 Doomsday.mkv
+2024-10-28 12:21:14.419075 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 53.
+2024-10-28 12:21:14.421625 [DEBUG] webarchive.py>parse()>Line 30: Found file S02E13 Doomsday.mp4
+2024-10-28 12:21:14.423460 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 55.
+2024-10-28 12:21:14.426004 [DEBUG] webarchive.py>parse()>Line 30: Found file S02S01 The Runaway Bride.mkv
+2024-10-28 12:21:14.427851 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 57.
+2024-10-28 12:21:14.430382 [DEBUG] webarchive.py>parse()>Line 30: Found file S02S01 The Runaway Bride.mp4
+2024-10-28 12:21:14.432220 [DEBUG] webarchive.py>parse()>Line 19: Ignoring empty item with index 59.
+2024-10-28 12:21:14.433083 [INFO] network.py>main()>Line 78: Successfully parsed content using parser webarchive.
+2024-10-28 12:21:14.434259 [DEBUG] cli.py>choose_from()>Line 5: Asking user to choose file(s) to download from a list
+2024-10-28 12:21:17.647770 [DEBUG] cli.py>choose_from()>Line 16: User chose <0 - S02S01 The Runaway Bride.mp4>
+2024-10-28 12:21:17.649099 [DEBUG] cli.py>choose_from()>Line 5: Asking user to choose a sort rule from a list
+2024-10-28 12:21:20.418080 [DEBUG] cli.py>choose_from()>Line 16: User chose <1 - filetype.py>
+2024-10-28 12:21:24.788039 [DEBUG] filetype.py>match()>Line 4: Checking if s02e01 new earth.mkv ends with mp4...
+2024-10-28 12:21:24.789120 [INFO] network.py>main()>Line 92: Skip for S02E01 New Earth.mkv because it is out of the sorting condition.
+2024-10-28 12:21:24.791315 [DEBUG] filetype.py>match()>Line 4: Checking if s02e01 new earth.mp4 ends with mp4...
+2024-10-28 12:21:24.792336 [DEBUG] network.py>main()>Line 88: Starting to download S02E01 New Earth.mp4
