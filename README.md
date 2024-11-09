@@ -15,6 +15,11 @@ See `parsers/webarchive.py` for more about how to make a parser.
 
 ![image](https://github.com/user-attachments/assets/9e6eb573-6620-42f9-a0fb-32d8ca5fe0c2)
 
-
 ## More?
 Sorry, but not for now. I will put more information about this project here or in the wiki ASAP.
+
+## Todo
+
+- Add description for each parser and sort rule at the head of the files in form of code comment.
+- Add options for downloaders, includinh which downloader to choose, and add downloader options for using internal downloader or external like curl or aria2
+
