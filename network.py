@@ -1,7 +1,5 @@
-
 import requests
 import time
-from contextlib import closing
 import os
 import log
 import requests
@@ -29,29 +27,6 @@ def start_parse(parser_name, content, url):
     result=parser.parse(content,url)
     return result
 
-# File downloading
-def download(file_url, file_path):
-    start_time = time.time()
-    try:
-        with closing(requests.get(file_url, stream=True, headers=headers)) as response:
-            chunk_size = 1024
-            content_size = int(response.headers["content-length"])
-            data_count = 0
-            with open(file_path, "wb") as file:
-                for data in response.iter_content(chunk_size=chunk_size):
-                    file.write(data)
-                    data_count = data_count + len(data)
-                    now_jd = (data_count / content_size) * 100
-                    speed = data_count / 1024 / (time.time() - start_time)
-                    print(f"\r Downloading {file_path}: %d%%(%d/%d) | Speed: %dKB/s - %s"
-                          % (now_jd, data_count, content_size, speed, file_path), 
-                          end="", flush=False)
-    except Exception as e:
-        log.error(f"Download failed with error {e}")
-        log.info(f"Retry downloading {file_url}")
-        download(file_url,file_path)
-    print("")
-
 def start_sort(rule_name, filename, condition):
     if not rule_name: #Not using sort rules
         return filename in condition
@@ -62,19 +37,15 @@ def start_sort(rule_name, filename, condition):
     result=sort_rule.match(filename,condition)
     return result
 
-def download_all(url,parser_name,save_path):
-    save_path=save_path.replace("\\","/")
-    if not save_path.endswith("/"):
-        save_path+="/"
-    html_content=get_page_content(url)
-    log.info(f"Successfully GET html from {url}.")
-    parse_result=start_parse(parser_name,html_content,url)
-    log.info(f"Successfully parsed content using parser {parser_name}.")
-    for file in parse_result.keys():
-        download(parse_result[file],save_path+file)
-        log.info(f"Downloaded {file}.")
+def start_download(downloader_name,file_url,file_path):
+    if not os.path.exists(f"./downloaders/{downloader_name}.py"):
+        log.warn(f"No such parser named {downloader_name}.")
+        return False
+    downloader=import_file(f"./parsers/{downloader_name}.py")
+    result=downloader.download(file_url,file_path)
+    return result
 
-def main(url,parser_name,save_path):
+def main(url,parser_name,downloader_name,save_path):
     save_path=save_path.replace("\\","/")
     if not save_path.endswith("/"):
         save_path+="/"

@@ -38,13 +38,16 @@ def ask_rule():
 def ask_files(file_list):
     return choose_from("file(s) to download",file_list,zero_option="Use a sort condition...")
 
-def ask_parser():
-    choices=os.listdir("./parsers/")
+def ask_module(module_path:str,module_type:str="module"):
+    module_path=module_path.replace("\\","/")
+    if not module_path.endswith("/"):
+        module_path+="/"
+    choices=os.listdir(module_path)
     index=0
     for c in choices:
-        if not os.path.isfile("./parsers/"+c):
+        if not os.path.isfile(module_path+c):
             choices.pop(index)
         index+=1
     #print(choices)
-    choice=choose_from("a parser",choices,max_choice=1,return_option_text=True)
+    choice=choose_from(f"a {module_type}",choices,max_choice=1,return_option_text=True)
     return choice.split(".")[0]
