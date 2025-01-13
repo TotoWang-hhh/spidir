@@ -1,7 +1,8 @@
 import os
 import log
+from typing import Union
 
-def choose_from(hint:str,items:list,zero_option=None,max_choice=0,return_option_text=False):
+def choose_from(hint:str,items:list,zero_option:Union[int,None]=None,max_choice=0,return_option_text=False):
     log.debug(f"Asking user to choose {hint} from a list")
     index=0
     print(f"\nChoose {hint}")

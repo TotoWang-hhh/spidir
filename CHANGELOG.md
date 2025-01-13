@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.1.2
+
+### Add
+- Choices for downloader.
+- Call curl to download files, for better downloading experience.
+- Added argument type hint for functions in `cli.py`.
+
+### Modify
+- Changed `cli.ask_parser()` to `cli.ask_module(module_path:str,module_type:str="module")`.
+- Moved file downloading function `network.download()` to `downloaders.interrnal.download()`.
+
+### Remove
+- Removed `network.download_all()`, which is for testing at first and not needed anymore.
+
 ## v0.1.1
 
 ### Add
